@@ -99,6 +99,12 @@ EXPOSE 80
 4. **EXPOSE 80:** Informs Docker that the NGINX server will use port 80. This is a documentation feature and doesn't actually publish the port.
 5. **CMD:** INGINX images come with a default CMD to start the server, so there's no need to specify it explicitly.
 
+`HTML` file named `index.html` in the sane directory as your Dockerfile.
+
+``` bash
+echo "Welcome to Darey.io" >> index.html
+```
+
 To build an image from this Dockerfile, navigate to the directory containing the file and run:
 
 ``` bash
