@@ -71,6 +71,9 @@ Here's an example of running a container with a specific environment variable:
 docker run -e "MY_VARIABLE=my-value" ubuntu
 ```
 
+![](./Images/12.%20docker-variable.png)
+
+
 ### Running container in the Background
 
 By default, containers run in the foreground, and the terminal is attached to the container's standard input/output. To run a container in the background use the `-d` flag
