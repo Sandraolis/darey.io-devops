@@ -117,19 +117,19 @@ docker stop container_name
 
 ## Ubuntu terminal
 
-- view of a stopped container
+- View of a stopped container
 
 ![](./Images/7.%20ubuntu-ps.png)
 
-- to start a stopped conatiner
+- To start a stopped conatiner
 
 ![](./Images/8.%20ubuntu-start.png)
 
-- to stop a running container
+- To stop a running container
 
 ![](./Images/9.%20ubuntu-stop.png)
 
-- to restart a stopped container
+- To restart a stopped container
 
 ``` bash
 docker restart container_name
