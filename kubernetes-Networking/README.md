@@ -1,6 +1,8 @@
 # Networking in Kubernetes
 
-Networking refers to the mechanism and configurations that allow communication between different components (pods, service, and other resources) within a Kubernetes cluster. Kubernetes provides a flexible and powerful networking model to enable seamless interaction between containers and services, whether they are running on the same node or across different nodes in a cluster.
+Networking refers to the mechanism and configurations that allow communication between different components (pods, service, and other resources) within a Kubernetes cluster. 
+
+Kubernetes provides a flexible and powerful networking model to enable seamless interaction between containers and services, whether they are running on the same node or across different nodes in a cluster.
 
 
 # Some key aspects of networking in Kubernetes
